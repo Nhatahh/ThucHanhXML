@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE danhsachsanpham SYSTEM "sanpham.dtd">
+<danhsachsanpham>
+    <sanpham id="SP001" category="Điện tử" price="5000000" currency="VND" />
+    <sanpham id="SP002" category="Thời trang" price="120" currency="USD" />
+    <sanpham id="SP003" category="Nội thất" price="35000000" currency="VND" />
+</danhsachsanpham>

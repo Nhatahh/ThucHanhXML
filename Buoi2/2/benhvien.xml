@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE benhvien SYSTEM "benhvien.dtd">
+<benhvien   xmlns="http://example.com/hospital"
+            xmlns:pat="http://example.com/patient"
+            xmlns:doc="http://example.com/doctor"
+            xmlns:app="http://example.com/appointment">
+
+    <!-- Cuộc hẹn 1 -->
+    <app:cuochen id="A001" ngayhen="2025-03-05" trangthai="Đã khám">
+        <pat:benhnhan id="P001">
+            <pat:tenbn>Lê Văn Mộng</pat:tenbn>
+            <pat:ngaysinh>1990-07-15</pat:ngaysinh>
+        </pat:benhnhan>
+        <doc:doctor id="D001">
+            <doc:tenbs>Bùi Hữu Nhật</doc:tenbs>
+            <doc:chuyenkhoa>Nội khoa</doc:chuyenkhoa>
+        </doc:doctor>
+    </app:cuochen>
+
+    <!-- Cuộc hẹn 2 -->
+    <app:cuochen id="A002" ngayhen="2025-03-10" trangthai="Chưa khám">
+        <pat:benhnhan id="P002">
+            <pat:tenbn>Huỳnh Minh Nhựt</pat:tenbn>
+            <pat:ngaysinh>1985-12-20</pat:ngaysinh>
+        </pat:benhnhan>
+        <doc:doctor id="D002">
+            <doc:tenbs>Nguyễn Quỳnh Như</doc:tenbs>
+            <doc:chuyenkhoa>Ngoại khoa</doc:chuyenkhoa>
+        </doc:doctor>
+    </app:cuochen>
+
+</benhvien>

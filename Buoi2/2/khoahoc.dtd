@@ -1,0 +1,28 @@
+<!ELEMENT dskhoahoc (course:khoahoc+)>
+<!ATTLIST dskhoahoc
+    xmlns:course CDATA #IMPLIED
+    xmlns:instructor CDATA #IMPLIED
+    xmlns:student CDATA #IMPLIED>
+
+<!ELEMENT course:khoahoc (course:tieude, instructor:giangvien, course:dssinhvien)>
+<!ATTLIST course:khoahoc
+    id CDATA #REQUIRED
+    danhmuc CDATA #REQUIRED>
+
+<!ELEMENT course:tieude (#PCDATA)>
+
+<!ELEMENT instructor:giangvien (instructor:tengv, instructor:email)>
+<!ATTLIST instructor:giangvien id CDATA #REQUIRED>
+
+<!ELEMENT instructor:tengv (#PCDATA)>
+<!ELEMENT instructor:email (#PCDATA)>
+
+<!ELEMENT course:dssinhvien (student:sinhvien+)>
+
+<!ELEMENT student:sinhvien (student:tensv)>
+<!ATTLIST student:sinhvien 
+    id CDATA #REQUIRED
+    tiendohoctap CDATA #IMPLIED
+    progress CDATA #IMPLIED>
+
+<!ELEMENT student:tensv (#PCDATA)>

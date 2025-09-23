@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE congty SYSTEM "nhansu.dtd">
+<congty xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department">
+    <dep:phongban name="Kế toán">
+        <hr:nhansu>
+            <hr:manv>A001</hr:manv>
+            <hr:tennv>Huỳnh Minh Nhựt</hr:tennv>
+            <hr:chucvu>Kế toán trưởng</hr:chucvu>
+        </hr:nhansu>
+        <hr:nhansu>
+            <hr:manv>A002</hr:manv>
+            <hr:tennv>Nguyễn Quỳnh Như</hr:tennv>
+            <hr:chucvu>Kế toán viên</hr:chucvu>
+        </hr:nhansu>
+    </dep:phongban>
+
+    <dep:phongban name="Công nghệ thông tin">
+        <hr:nhansu>
+            <hr:manv>A003</hr:manv>
+            <hr:tennv>Bùi Hữu Nhật</hr:tennv>
+            <hr:chucvu>Lập trình viên</hr:chucvu>
+        </hr:nhansu>
+        <hr:nhansu>
+            <hr:manv>A004</hr:manv>
+            <hr:tennv>Lê Văn Mộng</hr:tennv>
+            <hr:chucvu>Quản trị hệ thống</hr:chucvu>
+        </hr:nhansu>
+    </dep:phongban>
+</congty>

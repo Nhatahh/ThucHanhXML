@@ -1,0 +1,13 @@
+<!ELEMENT lop (sinhvien+)>
+
+<!ELEMENT sinhvien (masinhvien, hovaten, danhsachmonhoc)>
+
+<!ELEMENT masinhvien (#PCDATA)>
+<!ELEMENT hovaten (#PCDATA)>
+
+<!ELEMENT danhsachmonhoc (monhoc+)>
+
+<!ELEMENT monhoc (tenmon, diemso)>
+
+<!ELEMENT tenmon (#PCDATA)>
+<!ELEMENT diemso (#PCDATA)>

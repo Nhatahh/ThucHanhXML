@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dskhoahoc SYSTEM "khoahoc.dtd">
+<dskhoahoc    xmlns:course="http://example.com/course"
+            xmlns:instructor="http://example.com/instructor"
+            xmlns:student="http://example.com/student">
+
+    <!-- Khóa học 1 -->
+    <course:khoahoc id="C001" danhmuc="Lập trình web">
+        <course:tieude>HTML cơ bản</course:tieude>
+        <instructor:giangvien id="I001">
+            <instructor:tengv>Bùi Hữu Nhật</instructor:tengv>
+            <instructor:email>bhnhatktpm2211005@student.ctuet.edu.vn</instructor:email>
+        </instructor:giangvien>
+        <course:dssinhvien>
+            <student:sinhvien id="S001" tiendohoctap="80">
+                <student:tensv>Lê Văn Mộng</student:tensv>
+            </student:sinhvien>
+            <student:sinhvien id="S002" tiendohoctap="50">
+                <student:tensv>Nguyễn Quỳnh Như</student:tensv>
+            </student:sinhvien>
+        </course:dssinhvien>
+    </course:khoahoc>
+
+    <!-- Khóa học 2 -->
+    <course:khoahoc id="C002" danhmuc="Thiết kế">
+        <course:tieude>Thiết kế Web với HTML &amp; CSS</course:tieude>
+        <instructor:giangvien id="I002">
+            <instructor:tengv>Lê Thị D</instructor:tengv>
+            <instructor:email>lethid@example.com</instructor:email>
+        </instructor:giangvien>
+        <course:dssinhvien>
+            <student:sinhvien id="S003" progress="60">
+                <student:tensv>Phạm Văn E</student:tensv>
+            </student:sinhvien>
+            <student:sinhvien id="S004" progress="40">
+                <student:tensv>Đỗ Thị F</student:tensv>
+            </student:sinhvien>
+        </course:dssinhvien>
+    </course:khoahoc>
+
+</dskhoahoc>

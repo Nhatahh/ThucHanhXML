@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lop SYSTEM "sinhvien.dtd">
+<lop>
+    <sinhvien>
+        <masinhvien>KTPM2211005</masinhvien>
+        <hovaten>Bùi Hữu Nhật</hovaten>
+        <danhsachmonhoc>
+            <monhoc>
+                <tenmon>Cơ sở dữ liệu</tenmon>
+                <diemso>8.5</diemso>
+            </monhoc>
+            <monhoc>
+                <tenmon>Lập trình Java</tenmon>
+                <diemso>7.8</diemso>
+            </monhoc>
+        </danhsachmonhoc>
+    </sinhvien>
+
+    <sinhvien>
+        <masinhvien>KTPM2211055</masinhvien>
+        <hovaten>Lê Văn Mộng</hovaten>
+        <danhsachmonhoc>
+            <monhoc>
+                <tenmon>Mạng máy tính</tenmon>
+                <diemso>9.0</diemso>
+            </monhoc>
+            <monhoc>
+                <tenmon>Hệ điều hành</tenmon>
+                <diemso>8.0</diemso>
+            </monhoc>
+        </danhsachmonhoc>
+    </sinhvien>
+
+    <sinhvien>
+        <masinhvien>KTPM2211059</masinhvien>
+        <hovaten>Võ Kiều My</hovaten>
+        <danhsachmonhoc>
+            <monhoc>
+                <tenmon>Toán rời rạc</tenmon>
+                <diemso>7.5</diemso>
+            </monhoc>
+            <monhoc>
+                <tenmon>Lập trình Web</tenmon>
+                <diemso>8.2</diemso>
+            </monhoc>
+        </danhsachmonhoc>
+    </sinhvien>
+</lop>

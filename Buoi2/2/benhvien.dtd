@@ -1,0 +1,24 @@
+<!ELEMENT benhvien (app:cuochen+)>
+<!ATTLIST benhvien
+    xmlns CDATA #IMPLIED
+    xmlns:pat CDATA #IMPLIED
+    xmlns:doc CDATA #IMPLIED
+    xmlns:app CDATA #IMPLIED>
+
+<!ELEMENT app:cuochen (pat:benhnhan, doc:doctor)>
+<!ATTLIST app:cuochen 
+    id CDATA #REQUIRED
+    ngayhen CDATA #REQUIRED
+    trangthai CDATA #REQUIRED>
+
+<!ELEMENT pat:benhnhan (pat:tenbn, pat:ngaysinh)>
+<!ATTLIST pat:benhnhan id CDATA #REQUIRED>
+
+<!ELEMENT pat:tenbn (#PCDATA)>
+<!ELEMENT pat:ngaysinh (#PCDATA)>
+
+<!ELEMENT doc:doctor (doc:tenbs, doc:chuyenkhoa)>
+<!ATTLIST doc:doctor id CDATA #REQUIRED>
+
+<!ELEMENT doc:tenbs (#PCDATA)>
+<!ELEMENT doc:chuyenkhoa (#PCDATA)>

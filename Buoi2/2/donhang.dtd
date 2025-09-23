@@ -1,0 +1,18 @@
+<!ELEMENT qldonhang (order:donhang+)>
+<!ATTLIST qldonhang
+    xmlns:order CDATA #IMPLIED
+    xmlns:prod CDATA #IMPLIED>
+
+<!ELEMENT order:donhang (prod:sanpham+)>
+<!ATTLIST order:donhang 
+    id CDATA #REQUIRED
+    tenkhachhang CDATA #REQUIRED
+    ngaydathang CDATA #REQUIRED>
+
+<!ELEMENT prod:sanpham (prod:tensp)>
+<!ATTLIST prod:sanpham 
+    id CDATA #REQUIRED
+    soluong CDATA #REQUIRED
+    gia CDATA #REQUIRED>
+
+<!ELEMENT prod:tensp (#PCDATA)>

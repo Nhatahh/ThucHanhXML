@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE thuvien SYSTEM "thuvien.dtd">
+<thuvien>
+    <sach>
+        <tieude>Lập trình Python</tieude>
+        <tacgia>Bùi Hữu Nhật</tacgia>
+        <namxuatban>2025</namxuatban>
+        <theloai>CNTT</theloai>
+    </sach>
+
+    <sach>
+        <tieude>Lập trình Web</tieude>
+        <tacgia>Bùi Hữu Nhật</tacgia>
+        <namxuatban>2021</namxuatban>
+        <theloai>CNTT</theloai>
+    </sach>
+
+    <sach>
+        <tieude>Thiết kế đồ họa</tieude>
+        <tacgia>Bùi Hữu Nhật</tacgia>
+        <namxuatban>2022</namxuatban>
+        <theloai>Mỹ thuật</theloai>
+    </sach>
+</thuvien>

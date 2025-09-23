@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qldonhang SYSTEM "donhang.dtd">
+<qldonhang xmlns:order="http://company.com/order" xmlns:prod="http://company.com/product">
+    <order:donhang id="U001" tenkhachhang="Bùi Hữu Nhật" ngaydathang="2025-10-22">
+        <prod:sanpham id="P001" soluong="2" gia="50000000">
+            <prod:tensp>Điện thoại Iphone 17 Pro Max</prod:tensp>
+        </prod:sanpham>
+        <prod:sanpham id="P002" soluong="1" gia="80000000">
+            <prod:tensp>Laptop Legion 5</prod:tensp>
+        </prod:sanpham>
+    </order:donhang>
+
+    <order:donhang id="U002" tenkhachhang="Lê Văn Mộng" ngaydathang="2025-09-04">
+        <prod:sanpham id="P003" soluong="10" gia="2000000">
+            <prod:tensp>Loa JBL</prod:tensp>
+        </prod:sanpham>
+        <prod:sanpham id="P004" soluong="1" gia="8000000">
+            <prod:tensp>Máy tính bảng iPad</prod:tensp>
+        </prod:sanpham>
+        <prod:sanpham id="P005" soluong="2" gia="1500000">
+            <prod:tensp>Bàn phím cơ</prod:tensp>
+        </prod:sanpham>
+    </order:donhang>
+</qldonhang>
