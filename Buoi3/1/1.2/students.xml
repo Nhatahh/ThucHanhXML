@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE students SYSTEM "students.dtd"> -->
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="students.xsd">
+    <student id="SV001">
+        <name>Bùi Hữu Nhật</name>
+        <dob>2004-09-04</dob>
+        <major>Công nghệ thông tin</major>
+    </student>
+    <student id="SV002">
+        <name>Phạm Thị Bịch Ngọc</name>
+        <dob>2004-10-22</dob>
+        <major>Thiết Kế Đồ Họa</major>
+    </student>
+</students>

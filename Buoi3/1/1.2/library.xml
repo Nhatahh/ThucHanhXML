@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE library SYSTEM "library.dtd"> -->
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="library.xsd">
+    <book id="B001">
+        <title>Lập trình Java cơ bản</title>
+        <author>Bùi Hữu Nhật</author>
+        <year>2020</year>
+        <genre>Công nghệ thông tin</genre>
+    </book>
+    <book id="B002">
+        <title>Phân tích dữ liệu</title>
+        <author>Võ Kiều My</author>
+        <year>2018</year>
+        <genre>Khoa học dữ liệu</genre>
+    </book>
+    <book id="B003">
+        <title>Kinh tế học vi mô</title>
+        <author>Lê Văn Mộng</author>
+        <year>2021</year>
+        <genre>Kinh tế</genre>
+    </book>
+</library>
