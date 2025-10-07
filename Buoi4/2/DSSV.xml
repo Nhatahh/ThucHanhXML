@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="DSSV.xsd">
+
+    <Khoa maKhoa="K001">
+        <tenKhoa>CongNgheThongTin</tenKhoa>
+        <Lop maLop="L001">
+            <tenLop>KTPM2021A</tenLop>
+            <SinhVien mssv="SV001">
+                <hoTen>Bùi Hữu Nhật</hoTen>
+                <email>bhnhat2211005@student.ctuet.edu.vn</email>
+                <diaChi>123 Nguyễn Văn Cừ, Cần Thơ</diaChi>
+                <sdt>0901234567</sdt>
+            </SinhVien>
+            <SinhVien mssv="SV002">
+                <hoTen>Võ Kiều My</hoTen>
+                <email>vkmy2211059@student.ctuet.edu.vn</email>
+                <diaChi>45 Lê Lợi, Cần Thơ</diaChi>
+                <sdt>0912345678</sdt>
+            </SinhVien>
+        </Lop>
+
+        <Lop maLop="L002">
+            <tenLop>HTTT2021B</tenLop>
+            <SinhVien mssv="SV003">
+                <hoTen>Lê Văn Mộng</hoTen>
+                <email>lvmong2211055@student.ctuet.edu.vn</email>
+                <diaChi>77 Nguyễn Trãi, Cần Thơ</diaChi>
+                <sdt>0923456789</sdt>
+            </SinhVien>
+        </Lop>
+    </Khoa>
+
+    <Khoa maKhoa="K002">
+        <tenKhoa>KyThuatDien</tenKhoa>
+        <Lop maLop="L003">
+            <tenLop>DIEN2021A</tenLop>
+            <SinhVien mssv="SV004">
+                <hoTen>Huỳnh Minh Nhựt</hoTen>
+                <email>hmnhut2211039@student.ctuet.edu.vn</email>
+                <diaChi>11 Lý Tự Trọng, Cần Thơ</diaChi>
+                <sdt>0934567890</sdt>
+            </SinhVien>
+        </Lop>
+    </Khoa>
+</DSSV>

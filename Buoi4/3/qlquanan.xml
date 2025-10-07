@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ql:QUANLY
+    xmlns:ql="http://ctut.edu.vn/qlquanan"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://ctut.edu.vn/qlquanan qlquanan.xsd">
+
+    <!-- Danh sách bàn -->
+    <ql:BANS>
+        <ql:BAN>
+            <ql:SOBAN>1</ql:SOBAN>
+            <ql:TENBAN>Bàn 1</ql:TENBAN>
+        </ql:BAN>
+        <ql:BAN>
+            <ql:SOBAN>2</ql:SOBAN>
+            <ql:TENBAN>Bàn 2</ql:TENBAN>
+        </ql:BAN>
+        <ql:BAN>
+            <ql:SOBAN>3</ql:SOBAN>
+            <ql:TENBAN>Bàn 3</ql:TENBAN>
+        </ql:BAN>
+    </ql:BANS>
+
+    <!-- Danh sách nhân viên -->
+    <ql:NHANVIENS>
+        <ql:NHANVIEN>
+            <ql:MANV>NV01</ql:MANV>
+            <ql:TENV>Nguyễn Văn An</ql:TENV>
+            <ql:SDT>0901234567</ql:SDT>
+            <ql:DIACHI>Cần Thơ</ql:DIACHI>
+            <ql:GIOITINH>Nam</ql:GIOITINH>
+            <ql:USERNAME>an_nv_01</ql:USERNAME>
+            <ql:PASSWORD>1234567890</ql:PASSWORD>
+        </ql:NHANVIEN>
+
+        <ql:NHANVIEN>
+            <ql:MANV>NV02</ql:MANV>
+            <ql:TENV>Trần Thị Bình</ql:TENV>
+            <ql:SDT>0912345678</ql:SDT>
+            <ql:DIACHI>Hồ Chí Minh</ql:DIACHI>
+            <ql:GIOITINH>Nữ</ql:GIOITINH>
+            <ql:USERNAME>binh_tt</ql:USERNAME>
+            <ql:PASSWORD>abcdefghjk</ql:PASSWORD>
+        </ql:NHANVIEN>
+
+        <ql:NHANVIEN>
+            <ql:MANV>NV03</ql:MANV>
+            <ql:TENV>Lê Hoàng Nam</ql:TENV>
+            <ql:SDT>0938765432</ql:SDT>
+            <ql:DIACHI>Hà Nội</ql:DIACHI>
+            <ql:GIOITINH>Nam</ql:GIOITINH>
+            <ql:USERNAME>nam_lh</ql:USERNAME>
+            <ql:PASSWORD>nam1234567</ql:PASSWORD>
+        </ql:NHANVIEN>
+    </ql:NHANVIENS>
+
+    <!-- Danh sách món -->
+    <ql:MONS>
+        <ql:MON>
+            <ql:MAMON>M01</ql:MAMON>
+            <ql:TENMON>Cá Kho Tộ</ql:TENMON>
+            <ql:GIA>50000</ql:GIA>
+            <ql:HINHANH>cakho.jpg</ql:HINHANH>
+        </ql:MON>
+        <ql:MON>
+            <ql:MAMON>M02</ql:MAMON>
+            <ql:TENMON>Canh Chua Cá Lóc</ql:TENMON>
+            <ql:GIA>40000</ql:GIA>
+            <ql:HINHANH>canhchua.jpg</ql:HINHANH>
+        </ql:MON>
+        <ql:MON>
+            <ql:MAMON>M03</ql:MAMON>
+            <ql:TENMON>Gỏi Cuốn</ql:TENMON>
+            <ql:GIA>30000</ql:GIA>
+            <ql:HINHANH>goicuon.jpg</ql:HINHANH>
+        </ql:MON>
+        <ql:MON>
+            <ql:MAMON>M04</ql:MAMON>
+            <ql:TENMON>Bò Lúc Lắc</ql:TENMON>
+            <ql:GIA>80000</ql:GIA>
+            <ql:HINHANH>boluclac.jpg</ql:HINHANH>
+        </ql:MON>
+    </ql:MONS>
+
+    <!-- Danh sách hóa đơn -->
+    <ql:HOADONS>
+        <ql:HOADON>
+            <ql:SOHD>HD01</ql:SOHD>
+            <ql:NGAYLAP>2025-10-01</ql:NGAYLAP>
+            <ql:TONGTIEN>90000</ql:TONGTIEN>
+            <ql:SOBAN>1</ql:SOBAN>
+            <ql:MANV>NV01</ql:MANV>
+            <ql:CTHDS>
+                <ql:CTHD>
+                    <ql:MAMON>M01</ql:MAMON>
+                    <ql:SOLUONG>1</ql:SOLUONG>
+                </ql:CTHD>
+                <ql:CTHD>
+                    <ql:MAMON>M02</ql:MAMON>
+                    <ql:SOLUONG>1</ql:SOLUONG>
+                </ql:CTHD>
+            </ql:CTHDS>
+        </ql:HOADON>
+
+        <ql:HOADON>
+            <ql:SOHD>HD02</ql:SOHD>
+            <ql:NGAYLAP>2025-10-02</ql:NGAYLAP>
+            <ql:TONGTIEN>110000</ql:TONGTIEN>
+            <ql:SOBAN>2</ql:SOBAN>
+            <ql:MANV>NV02</ql:MANV>
+            <ql:CTHDS>
+                <ql:CTHD>
+                    <ql:MAMON>M03</ql:MAMON>
+                    <ql:SOLUONG>2</ql:SOLUONG>
+                </ql:CTHD>
+                <ql:CTHD>
+                    <ql:MAMON>M02</ql:MAMON>
+                    <ql:SOLUONG>1</ql:SOLUONG>
+                </ql:CTHD>
+            </ql:CTHDS>
+        </ql:HOADON>
+
+        <ql:HOADON>
+            <ql:SOHD>HD03</ql:SOHD>
+            <ql:NGAYLAP>2025-10-03</ql:NGAYLAP>
+            <ql:TONGTIEN>160000</ql:TONGTIEN>
+            <ql:SOBAN>3</ql:SOBAN>
+            <ql:MANV>NV03</ql:MANV>
+            <ql:CTHDS>
+                <ql:CTHD>
+                    <ql:MAMON>M04</ql:MAMON>
+                    <ql:SOLUONG>2</ql:SOLUONG>
+                </ql:CTHD>
+            </ql:CTHDS>
+        </ql:HOADON>
+    </ql:HOADONS>
+
+</ql:QUANLY>
